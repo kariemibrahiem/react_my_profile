@@ -1,0 +1,230 @@
+.skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sk_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.skill div img{
+    width: 150px !important;
+}
+.html{
+    position: relative;
+}
+.html:hover .af{
+    /* display: block; */
+    opacity: 1;
+}
+.af{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.css{
+    position: relative;
+}
+.css:hover .af_css{
+    /* display: block; */
+    opacity: 1;
+}
+.af_css{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boot{
+    position: relative;
+}
+.boot:hover .af_boot{
+    /* display: block; */
+    opacity: 1;
+}
+.af_boot{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.js{
+    position: relative;
+}
+.js:hover .af_js{
+    /* display: block; */
+    opacity: 1;
+}
+.af_js{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.reac{
+    position: relative;
+}
+.reac:hover .af_reac{
+    /* display: block; */
+    opacity: 1;
+}
+.af_reac{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.php{
+    position: relative;
+}
+.php:hover .af_php{
+    /* display: block; */
+    opacity: 1;
+}
+.af_php{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sql{
+    position: relative;
+}
+.sql:hover .af_sql{
+    /* display: block; */
+    opacity: 1;
+}
+.af_sql{
+    transition: .5s;
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.303);
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent rgba(255, 166, 0, 0.536) transparent transparent;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* the add skills */
+.add_skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add_skill div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+.add_skill div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px;
+
+}
+.add_skill div img{
+    width: 100px;
+}
+.ico_n{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,107 @@
+.hero_sec{
+    width: 100%;
+    min-height: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border-bottom:  .1px solid rgb(118, 117, 117);
+}
+
+h2{
+    color: var(--title) !important;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: var(--sub_title) !important;
+    font-size: 1rem;
+}
+.img_pro{
+    width: 100px;
+    height: 100px;
+    border-radius: 50% ;
+    border: 1px solid rgb(255, 140, 0);
+    box-shadow: 1px 1px 30px gray;
+    transition: .5s;
+}
+.img_pro:hover{
+    scale: 1.1;
+    filter: blur(2px);
+}
+.connection{
+    background-color: rgb(0, 140, 255) !important;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 0px 5px;
+    width: 190px;
+    justify-content: space-around;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: .25s;
+}
+.icon:hover{
+    scale: 1.5;
+    filter: blur(1px);
+    cursor: pointer;
+    border: 1px solid red;
+}
+.logo_div{
+    position: relative
+}
+.back{
+    width: 50%;
+    right: 50%;
+    z-index: 1;
+    position: absolute;
+    animation: back 9s infinite ease;
+}
+@keyframes back {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 170deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+.logo{
+    top: 40px;
+    left: -10px;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+.cv{
+    text-decoration: none ;
+    padding: 2px  8px;
+    background-color: #ffc107;
+    color: black !important;   
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 7px;
+    transition: .5s;
+}
+.cv:hover{
+    scale: 1.1;
+}
+.cv:active{
+    scale: .95;
+}
+.cv_bt{
+    background-color: #ffc107;
+    /* margin-bottom: 10px; */
+    width: 190px;
+    
+    opacity: 1;
+    /* width: fit-content; */
+    border-radius: 20px;
+    padding: 0px;
+}

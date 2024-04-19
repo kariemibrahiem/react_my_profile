@@ -1,0 +1,113 @@
+/* the body of nav */
+.cont2{
+  padding: 4px 10px !important;
+    min-width: 50vh !important;
+    border-radius: 50px;
+    flex-wrap: nowrap;
+    background-color: rgb(112, 111, 111) !important;
+    box-shadow: 1px 1px 40px rgba(76, 75, 75, 0.936); 
+}
+/* the texts of nav */
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.dropdown-menu{
+  background-color: #28096b !important;
+}
+.ll{
+    transition: .5s;
+    color: rgb(181, 184, 218) !important;
+    align-self: center;
+    padding: 15px !important;
+}
+.ll:hover{
+    outline:  rgb(192, 192, 192) solid 1px;
+    border-radius: 30% 70% 30% 70% / 27% 30% 70% 73%  ;
+    background-color: #28096b6d;
+}
+.dropdown-toggle{
+  border: 0px !important;
+  outline: none !important;
+}
+.dropdown-item:hover{
+  background-color: #5a28c4 !important;
+}
+.navbar-toggler-icon{
+  padding: 0px 15px !important;
+  outline: none !important;
+  border: 2px solid rgb(69, 67, 67);
+  border-radius: 5px !important;
+}
+.navbar-toggler-icon:active{
+  scale: .90;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*the button*/
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: absolute;
+    z-index: 9;
+    right: 2.5%;
+    top: 10px;
+    display: inline-block;
+    width: 3em;
+    height: 2em;
+  }
+  .switch:active{
+    scale: .90;
+  }
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px #fff000;
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color: #522ba7;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(75%);
+    box-shadow: inset 15px -4px 10px 15px #fff000;
+  }
+
+
