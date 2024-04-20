@@ -10,6 +10,8 @@ import Footer from './componant/5-footer/footer';
 import Home from './componant/9-home';
 import Projects from './comp_m/projects';
 import Slills from './comp_m/slills';
+import Contact_m from './comp_m/contact_m';
+
 function App() {
   return (
     
@@ -20,7 +22,7 @@ function App() {
                 <Route path='/p' element={<Projects/>}/>
                 <Route path='/s' element={<Slills/>}/>
                 {/* <Route path='/a_s' element={<Main/>}/> */}
-                <Route path='/c' element={<Contact/>}/>
+                <Route path='/c' element={<Contact_m/>}/>
                 
                 
             </Routes>
