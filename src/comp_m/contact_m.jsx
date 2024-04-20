@@ -4,7 +4,7 @@ import Contact from '../componant/4-contact/contact'
 
 const Contact_m = () => {
   return (
-    <div>
+    <div className='contactt'>
         <Navs/>
         <Contact/>
     </div>
