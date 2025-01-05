@@ -11,9 +11,10 @@ import p5 from "./projs/crud.png";
 import p6 from "./projs/demonetor.png";
 import p7 from "./projs/moon.png";
 import p8 from "./projs/xo.png";
+import l1 from "./projs/laravel_1.png";
 
 const mycard= [
-   {title :"guess" ,text : "game to guess the right word from this letters" ,  cat:"front" , link:p2 , more:"https://kariemibrahiem.github.io/guess/"},
+   {title :" bank invoices " ,text : "invoices full system to a banks" ,  cat:"back" , link:l1 , more:"https://github.com/kariemibrahiem/laravel_invoices/"},
    {title :"furni" ,text : "small project for a furniture company with some adits from me " ,  cat:"react" , link: p1 , more:""},
    {title :"clinic" ,text : "design for a clinic  and my first project with many mistakes" ,  cat:"react" , link: p3 , more:"https://kariemibrahiem.github.io/clinec/"},
    {title :"company" ,text : "design for a company with a color changable buttons js functional" ,  cat:"front" , link: p4 , more:"https://kariemibrahiem.github.io/company/"},
@@ -43,8 +44,8 @@ const Main = () =>{
             <div className="main_con">
                 <div className=" btn_div ">
                     <button onClick={() => {setactive(0); setarr(mycard)}} className= {active == 0 ? "btn btn-outline-success m-1 active" : "btn btn-outline-success m-1 "} >all projects</button>
-                    <button onClick={() => {setactive(1); handel("front") ;}} className= {active == 1 ? "btn btn-outline-success m-1 active" : "btn btn-outline-success m-1 "} >front</button>
-                    <button onClick={() => {setactive(2); handel("react") ;}} className= {active == 2 ? "btn btn-outline-success m-1 active" : "btn btn-outline-success m-1 "} >react</button>
+                    <button onClick={() => {setactive(1); handel("front") ;}} className= {active == 1 ? "btn btn-outline-success m-1 active" : "btn btn-outline-success m-1 "} >front-end</button>
+                    <button onClick={() => {setactive(2); handel("back") ;}} className= {active == 2 ? "btn btn-outline-success m-1 active" : "btn btn-outline-success m-1 "} >back-ens</button>
                 </div>
                 <div className=" cards_div ">
                     {/* {active == 0 ? <div className=""><Cards title="page design 1" picture={p1} /></div> : null}

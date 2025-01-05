@@ -49,7 +49,7 @@ const Navs = () =>{
            <Link to="/c" className="ll"> contact  </Link>
 
            
-            <NavDropdown title="my skills" id="basic-nav-dropdown">
+           {/* <NavDropdown title="my skills" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">html </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1">css </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1">javascript </NavDropdown.Item>
@@ -58,6 +58,7 @@ const Navs = () =>{
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.1">back end basics </NavDropdown.Item>
             </NavDropdown>
+            */}
           </Nav>
         </Navbar.Collapse>
         {/* the button  */}

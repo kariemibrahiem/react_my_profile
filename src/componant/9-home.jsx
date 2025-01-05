@@ -24,7 +24,7 @@ function Home() {
 return (
   
   <div>
-  <div  className="container  cont w-100">
+  <div  className="  cont w-100">
           <Navs/>
           <Hero />
           <Main />
