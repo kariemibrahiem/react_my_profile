@@ -1,0 +1,96 @@
+:root{
+    --primary :#000;
+    --secondary :#18181B;
+    --border : rgba(63 , 63 , 70 , 0.4);
+    --title : #F4F4F5 ;
+    --sub_title : #A1A1AA;
+}
+/* the slide button */
+
+html{
+    scroll-behavior: smooth;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(50, 50, 50) ;
+    border:  2px solid var(--border);
+    padding: 90px;
+}
+
+input{
+    color: #000 !important;
+}
+textarea{
+    color: #000 !important;
+}
+
+.slide{
+    height: 40px;
+    width: 40px;
+    border-radius: 50% !important;
+    position: fixed;
+    top: 93%;
+    right: 2%;
+    z-index: 6;
+    opacity: .75;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 33px 0px 10px !important;
+}
+.slide:hover{
+    opacity: 1;
+}
+
+/* the mod section */
+.light{
+    background-color: #e1dcdc !important;
+}
+.light .cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        background-color: rgb(255, 255, 255) !important;
+        border:  2px solid var(--border);
+        color: #000 !important;
+}
+.light .cont p{
+    color: #000 !important;
+}
+.light .cont sup{
+    color: #000 !important;
+}
+.light .cont h2{
+    color: #000 !important;
+}
+.light .cont label{
+    color: #000 !important;
+}
+.light .cont a{
+    color: #000 !important;
+}
+.light .cont button{
+    color: #000 !important;
+}
+.light .cont .cont2{
+    background-color: #e1dcdc !important;
+}
+.light .cont .crd{
+    background-color: #fffafa !important;
+}
+.light .cont .dropdown-menu{
+    background-color: #fffafa !important;
+}
+.light .cont .dropdown-item:hover{
+    background-color: #827a7a !important;
+}
+
+
+

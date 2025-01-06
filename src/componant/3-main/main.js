@@ -11,25 +11,17 @@ import p5 from "./projs/crud.png";
 import p6 from "./projs/demonetor.png";
 import p7 from "./projs/moon.png";
 import p8 from "./projs/xo.png";
-import f1 from "./projs/f1_shose.png";
-import f2 from "./projs/f2_cof.png";
 import l1 from "./projs/laravel_1.png";
-import l2 from "./projs/l2_htls.png";
-import l3 from "./projs/l3_task.png";
 
 const mycard= [
    {title :" bank invoices " ,text : "invoices full system to a banks" ,  cat:"back" , link:l1 , more:"https://github.com/kariemibrahiem/laravel_invoices/"},
-   {title :" hotels task " ,text : "hotel partially system to a make relation tasks" ,  cat:"back" , link:l2 , more:"https://github.com/kariemibrahiem/laravel_hotels/"},
-   {title :"  task_queue_manager " ,text : " task as task manager to manage the load on the server using job/queue" ,  cat:"back" , link:l3 , more:"https://github.com/kariemibrahiem/laravel_tasks_management-system/tree/master"},
-   {title :"shose" ,text : "small project for sport products with my ui/ux designing" ,  cat:"front" , link: f1 , more:"https://github.com/kariemibrahiem/react_shoes_com"},
-   {title :"clinic" ,text : "design for a clinic  and my first project with many mistakes" ,  cat:"front" , link: p3 , more:"https://github.com/kariemibrahiem/react_clinec"},
-   {title :"coffee corner" ,text : "design for a coffee with responsive design and perfect animations" ,  cat:"front" , link: f2 , more:"https://github.com/kariemibrahiem/react_final_coffe_corner"},
-   {title :"furniture" ,text : "small project for a furniture company with some adits from me " ,  cat:"react" , link: p1 , more:"https://github.com/kariemibrahiem/react_furniture"},
-   {title :"company" ,text : "design for a company with a color changable buttons js functional" ,  cat:"front" , link: p4 , more:"https://github.com/kariemibrahiem/react_furniture"},
-   {title :"cruds" ,text : "project based on the functions of javascript" ,  cat:"front" , link: p5 , more:"https://github.com/kariemibrahiem/cr"},
-   {title :"de'monetor" ,text : "small project used for the lectures of the faculty " ,  cat:"react" , link: p6 , more:"https://github.com/kariemibrahiem/monetor_react"},
-   {title :"moon" ,text : "login website with js functional to display a writer text" ,  cat:"front" , link: p7 , more:"https://github.com/kariemibrahiem/react_moon"},
-   {title :"XO" ,text : "simple xo game with js functional in very simple design" ,  cat:"front" , link: p8 , more:"https://github.com/kariemibrahiem/react_xo_game"}
+   {title :"furni" ,text : "small project for a furniture company with some adits from me " ,  cat:"react" , link: p1 , more:""},
+   {title :"clinic" ,text : "design for a clinic  and my first project with many mistakes" ,  cat:"react" , link: p3 , more:"https://kariemibrahiem.github.io/clinec/"},
+   {title :"company" ,text : "design for a company with a color changable buttons js functional" ,  cat:"front" , link: p4 , more:"https://kariemibrahiem.github.io/company/"},
+   {title :"cruds" ,text : "project based on the functions of javascript" ,  cat:"front" , link: p5 , more:"https://kariemibrahiem.github.io/cr/"},
+   {title :"de'monetor" ,text : "small project used for the lectures of the faculty " ,  cat:"react" , link: p6 , more:"https://kariemibrahiem.github.io/monetor_react/"},
+   {title :"moon" ,text : "login website with js functional to display a writer text" ,  cat:"front" , link: p7 , more:"https://kariemibrahiem.github.io/moon/"},
+   {title :"moon" ,text : "simple xo game with js functional in very simple design" ,  cat:"front" , link: p8 , more:"https://kariemibrahiem.github.io/xo_game/"}
    
 
 ];

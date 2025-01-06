@@ -1,0 +1,24 @@
+.proj_p{
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif !important;
+    opacity: 1;
+    color: aliceblue;
+}
+.containe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 50px ;
+}
+img{
+    width: 400px;
+}
+.projects{
+    background-color:   rgb(50, 50, 50);
+}
+.skills{
+    background-color:   rgb(50, 50, 50);
+}
+.contactt{
+    background-color:   rgb(50, 50, 50);
+}

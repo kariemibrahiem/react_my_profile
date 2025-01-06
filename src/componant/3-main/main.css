@@ -34,9 +34,6 @@ button{
     /* outline: red solid 1px; */
     opacity: .5;
 }
-.card-body{
-    height: 300px;
-}
 button:hover{
     box-shadow: 1px 1px 20px rgb(142, 140, 140);
     opacity: 1;

@@ -1,0 +1,18 @@
+.footer_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.foot_a{
+    text-decoration: none;
+    margin: 8px 10px;
+    transition: .25s;
+}
+.footer_sec .link a:hover{
+    color: rgb(0, 76, 255) !important;
+    text-decoration: underline solid rgb(38, 255, 0) 1.5px;
+}

@@ -1,0 +1,39 @@
+.card_sec{
+    transition: .25s;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 5px;
+    max-width: 300px;
+}
+.crd{
+    background-color: rgb(80, 80, 80);
+    border: 0px !important;
+}
+.card_sec:hoveR{
+    rotate: 1deg;
+    border: 1px solid gray;
+    scale: 1.1;
+    z-index: 3;
+}
+.card_title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px;
+    align-items: center;
+}
+.card_btn a{
+    color: rgb(0, 191, 249) !important;
+}
+.card_img{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.426);
+}
+.cat{
+    opacity: 1 !important;
+    color: aliceblue !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
