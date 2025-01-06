@@ -20,9 +20,7 @@ html{
     border:  2px solid var(--border);
     padding: 90px;
 }
-.card-body{
-    height: 300px;
-}
+
 input{
     color: #000 !important;
 }

@@ -7,6 +7,23 @@
     border-bottom:  .1px solid rgb(118, 117, 117);
 }
 
+
+ /* Optional: Add some styling to make the button look better */
+ .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
 h2{
     color: var(--title) !important;
     font-size: 3rem;
